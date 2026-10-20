@@ -8,6 +8,15 @@ function ajouterapprenant() {
     }
     const element = document.createElement("li");
     element.textContent = nom;
-    document.getElementById("liste").appendChild(element);
-    champ.value = "";
+
+    const bouton = document.createElement("button");
+    bouton.textContent = "Supprimer";
+    bouton.onclick = function () {
+    supprimerapprenant(bouton);
+    };
+    element.appendChild(bouton);
+}
+
+function supprimerapprenant(bouton) {
+bouton.parentElement.remove();
 }
