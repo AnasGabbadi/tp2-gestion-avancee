@@ -1,4 +1,4 @@
-# Plateforme universitaire des apprenants
+# Application de suivi académique
 Application web pour gérer une liste d'apprenants.
 Version : 1.0.0
 ## Fonctionnalités
