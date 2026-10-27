@@ -15,4 +15,4 @@ element.remove();
 element.appendChild(bouton);
 document.getElementById("liste").appendChild(element);
 champ.value = "";
-}x  
+}
