@@ -3,9 +3,9 @@ name: CI - Gestion des apprenants
 
 on:
   push:
-    branches: [main, develop]
+    branches: [main, devlop]
   pull_request:
-    branches: [main, develop]
+    branches: [main, devlop]
 
 permissions:
   contents: read
